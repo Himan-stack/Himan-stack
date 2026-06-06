@@ -1,125 +1,237 @@
 # Hey, I'm Himanshu 👋
 
-**AI/ML Engineer | Building smart systems that actually work**
+**AI/ML Engineer | Building Production Systems | Learning in Public**
 
-I'm a 4th-year AI & ML student turning ideas into real code. I don't just implement algorithms—I build end-to-end solutions that solve actual problems. Right now, I'm diving deep into production ML systems, LLMs, and trading automation.
+I'm a 4th-year AI & ML student at GGSIPU, New Delhi turning ideas into production code. I don't just implement algorithms—I build end-to-end systems that actually work, deploy reliably, and solve real problems.
 
-## 🎯 What I Actually Do
-
-I specialize in **machine learning systems that go from notebook to production**. That means:
-- Building ML models that work (not just theoretically)
-- Deploying them so people can actually use them
-- Making sure they stay reliable when things break
-- Turning messy data into actionable insights
-
-I'm most interested in **MLOps**, **LLM applications**, and **financial ML** — areas where getting it right actually matters.
-
----
-
-## 🏆 My Best Work
-
-### [Vision Price Net](https://github.com/Himan-stack/vision-price-net) — *House Price Prediction with Multimodal Learning*
-**Live demo:** https://house-prediction-model-1rtp.onrender.com/
-
-What I built:
-- Combined **Deep Learning (ResNet18)** for image features with **tabular data** (bedrooms, bathrooms, location)
-- Trained an **XGBoost ensemble** for accurate predictions
-- Built a **Flask web app** to make it actually usable
-- Deployed on Render so you can see it working right now
-
-Why it matters: Shows I can handle real-world complexity — multiple data types, ensemble methods, and production deployment. Not a notebook exercise.
-
-**Tech stack:** Python, TensorFlow, PyTorch, XGBoost, Flask, Render
-
----
-
-### [Binance Futures Trading Bot](https://github.com/Himan-stack/binance-futures-trading-bot) — *Automated Trading System*
-
-What I built:
-- API integration with **Binance Futures testnet** using REST
-- **Order validation, position management**, and risk controls
-- Modular CLI with **argparse** (because clean code matters)
-- Structured logging and error handling for reliability
-
-Why it matters: Shows I understand APIs, real financial data, and building systems that can't afford to break.
-
-**Tech stack:** Python, Binance API, REST, argparse, structured logging
-
----
-
-### [MLOps Batch Signal Pipeline](https://github.com/Himan-stack/mlops-batch-signal-pipeline) — *Production-Ready Data Pipeline*
-
-What I built:
-- **Deterministic batch processing** — consistency is non-negotiable
-- Signal generation with rolling calculations
-- **Docker containerization** for reproducibility
-- Structured logging and JSON metrics for observability
-- YAML-based config management
-
-Why it matters: Shows I understand how real ML teams build systems — not just model training, but the entire production pipeline.
-
-**Tech stack:** Python, Docker, pandas, NumPy, YAML, structured logging
-
----
-
-## 🛠️ My Toolbox
-
-**Languages:** Python (expert), Java, SQL
-
-**ML & Data Science:**
-- Model building: Scikit-learn, XGBoost, TensorFlow, PyTorch
-- Data work: pandas, NumPy, feature engineering, cross-validation
-- Visualization: matplotlib, seaborn
-- Techniques: Supervised & unsupervised learning, ensemble methods, anomaly detection (Isolation Forest)
-
-**LLM & GenAI (actively exploring):**
-- LangChain, ChromaDB, RAG pipelines
-- OpenAI & Anthropic APIs
-- Vector databases, prompt engineering
-
-**Production & DevOps:**
-- Docker (containerization & consistency)
-- GitHub Actions (CI/CD pipelines)
-- MLflow (experiment tracking)
-- pytest (because untested code is broken code)
-- Structured logging and JSON metrics
-
-**Backend & APIs:**
-- FastAPI, Flask (REST APIs)
-- MySQL, authentication (HMAC-SHA256)
-- Gunicorn, Render (deployment)
-- Azure (exploration phase)
-
-**Frontend:** HTML, CSS, JavaScript
-
-**Tools:** Jupyter, VS Code, argparse, python-dotenv
-
----
-
-## 🚀 Currently Working On
-
-**LLM-Powered Applications** — Building RAG pipelines and exploring how to integrate LLMs into real systems. This is where the future is.
+Currently focused on **ML engineering** (production systems, MLOps, deployment), **LLM applications** (RAG, vector databases), and **financial ML** (trading systems).
 
 ---
 
 ## 📊 Quick Facts
 
-- **4th year AI/ML student** — fresher, but building like a professional
-- **Open to:** Full-time internships, entry-level jobs, remote opportunities, freelance projects
-- **Looking for:** Roles in ML engineering, data science, or full-stack AI development
+- **Education:** B.Tech AI & ML | GGSIPU, New Delhi (2023–2027)
+- **CGPA:** 7.5/10
+- **Status:** 4th year, actively seeking **full-time roles, internships, remote opportunities, freelance projects**
+- **Specialization:** ML Engineering (from notebook to production)
+- **Location:** New Delhi, India (open to remote)
 
 ---
 
-## 💬 Let's Connect
+## 🏆 Achievements & Recognition
 
-Got a project idea? Want to collaborate? Have feedback on my work?
+- **Hackathon Finalist** — JECRC Innov8
+- **Smart India Hackathon Participant** — National-level competition
+- **IITM Matrix 2.0 Participant** — ML/AI track
+- **FPGA Design Flow Workshop** — NIT Delhi
+- **Data Privacy & Confidentiality Program** — NIT Delhi + IIT Roorkee
+- **Certifications:** Microsoft Azure Fundamentals (AZ-900), Python for AI & Development, Java Core
+
+---
+
+## 💻 My Best Work
+
+### [Vision Price Net](https://github.com/Himan-stack/vision-price-net) — Multimodal ML System
+**Live Demo:** https://house-prediction-model-1rtp.onrender.com/
+
+House price prediction combining **Deep Learning (ResNet18) + XGBoost** with tabular data.
+
+**Results:**
+- ✅ **88% R² Score** (explains 88% of price variance)
+- ✅ **2,500–5,000 house dataset**
+- ✅ **<2.5 second inference time**
+- ✅ **Live on Render** (fully deployed)
+
+**Tech:** PyTorch, TensorFlow, XGBoost, Flask, Render
+
+**Why it matters:** Shows I can handle real-world complexity—multiple data types, ensemble methods, model comparison, deployment decisions.
+
+[Read full project details →](https://github.com/Himan-stack/vision-price-net)
+
+---
+
+### [Binance Futures Trading Bot](https://github.com/Himan-stack/binance-futures-trading-bot) — REST API Backend
+
+Production-grade trading bot demonstrating **REST API design, HMAC-SHA256 authentication, and secure backend development**.
+
+**What I built:**
+- ✅ Binance Futures Testnet integration (live order execution)
+- ✅ MARKET & LIMIT order functionality
+- ✅ HMAC-SHA256 signature generation
+- ✅ Modular, testable Python architecture
+- ✅ Structured logging and error handling
+
+**Tech:** Python, REST APIs, HMAC authentication, argparse, structured logging
+
+**Why it matters:** Shows I understand API security, credential handling, and production backend practices—not just ML algorithms.
+
+[Read full project details →](https://github.com/Himan-stack/binance-futures-trading-bot)
+
+---
+
+### [MLOps Batch Signal Pipeline](https://github.com/Himan-stack/mlops-batch-signal-pipeline) — Production Infrastructure
+
+Real-world batch pipeline showing how **professional ML teams build systems**—not just models.
+
+**What I built:**
+- ✅ Deterministic batch processing (reproducible execution)
+- ✅ YAML configuration management
+- ✅ Docker containerization
+- ✅ Structured logging & JSON metrics
+- ✅ Production observability practices
+
+**Results:**
+- ✅ Processes 10,000+ rows reliably
+- ✅ 100% reproducible (seeded randomness)
+- ✅ Runs identically in Docker & local
+
+**Tech:** Docker, pandas, NumPy, YAML, structured logging
+
+**Why it matters:** The hard part of ML isn't the algorithm—it's the infrastructure. This project shows I understand deployment, reproducibility, and observability.
+
+[Read full project details →](https://github.com/Himan-stack/mlops-batch-signal-pipeline)
+
+---
+
+### [AI-Powered Payroll System](https://github.com/Himan-stack/payroll-project) — Microservices Architecture
+
+Distributed system demonstrating **system design, microservices communication, and fault tolerance**.
+
+**What I built:**
+- ✅ Java backend (payroll calculations, data persistence)
+- ✅ Python FastAPI microservice (Isolation Forest anomaly detection)
+- ✅ Real-time ML inference in business workflow
+- ✅ Graceful degradation (works even if ML service is down)
+- ✅ REST API communication between Java & Python
+
+**Tech:** Java 8, FastAPI, Scikit-learn, CSV persistence, HTTP APIs
+
+**Why it matters:** Shows I can design systems where business logic and AI work together reliably—a real production concern.
+
+[Read full project details →](https://github.com/Himan-stack/payroll-project)
+
+---
+
+## 🛠️ Technical Expertise
+
+### Languages
+**Python** (expert), **Java**, **SQL**
+
+### Machine Learning & Data Science
+- **Model Building:** Scikit-learn, XGBoost, TensorFlow, PyTorch
+- **Techniques:** Supervised & unsupervised learning, ensemble methods, anomaly detection (Isolation Forest)
+- **Feature Engineering:** pandas, NumPy, data cleaning, feature selection
+- **Evaluation:** Cross-validation, model comparison, performance metrics
+- **Visualization:** matplotlib, seaborn
+
+### LLM & GenAI (Actively Exploring)
+- LangChain, ChromaDB, RAG pipelines
+- OpenAI & Anthropic APIs
+- Vector databases, prompt engineering
+
+### Production & MLOps
+- **Containerization:** Docker (reproducibility, deployment)
+- **CI/CD:** GitHub Actions (automated testing, deployment)
+- **ML Tracking:** MLflow (experiment tracking)
+- **Testing:** pytest (test-driven development)
+- **Logging:** Structured logging, JSON metrics, observability
+- **Configuration:** YAML, environment variables
+
+### Backend & APIs
+- **Frameworks:** FastAPI, Flask (REST API development)
+- **Databases:** MySQL, CSV persistence
+- **Security:** HMAC-SHA256 authentication, API key management
+- **Deployment:** Gunicorn, Render (PaaS), Uvicorn
+- **Exploration:** Microsoft Azure
+
+### Frontend
+- **Languages:** HTML5, CSS3, JavaScript
+- **UI/UX:** Responsive design, user feedback (animations, loading states)
+
+### Tools & Platforms
+- **Development:** Jupyter, VS Code, Git/GitHub
+- **CLI Tools:** argparse, python-dotenv
+- **Deployment:** Render (PaaS)
+
+---
+
+## 🚀 What I'm Focused On Right Now
+
+**LLM Applications & RAG Pipelines**
+- Building question-answering systems with LangChain
+- Exploring vector databases (ChromaDB) for semantic search
+- Working with OpenAI & Anthropic APIs
+- Learning prompt engineering best practices
+
+**Why?** This is where AI is moving—from static models to dynamic, context-aware systems.
+
+---
+
+## 📚 Relevant Coursework
+
+- **AI & Machine Learning Algorithms**
+- **Database Management Systems (DBMS)**
+- **Data Structures & Algorithms**
+- **Web Development & APIs**
+
+---
+
+## 🤝 How to Work With Me
+
+**I'm interested in:**
+- ✅ **Full-time ML Engineering roles** (production systems, MLOps)
+- ✅ **Internships** (summer 2026, 6+ months)
+- ✅ **Remote opportunities** (anywhere in India)
+- ✅ **Freelance projects** (specific ML/data tasks)
+- ✅ **Collaboration** (interesting problems, learning opportunities)
+
+**I'm NOT interested in:**
+- ❌ Cookie-cutter projects with no learning
+- ❌ Resume-padding exercises
+- ❌ Work that's purely theoretical (I like building real things)
+
+---
+
+## 📖 My Philosophy
+
+**On Building:** Code should be:
+- ✅ **Working** (deployed, not just in a notebook)
+- ✅ **Reliable** (error handling, edge cases, logging)
+- ✅ **Maintainable** (clean, modular, documented)
+- ✅ **Learnable** (reflects current best practices)
+
+**On Learning:** I learn by:
+- ✅ Building real projects (not tutorials)
+- ✅ Shipping code to production
+- ✅ Learning from failures (bugs, rollbacks, lessons)
+- ✅ Reading production code (open source, papers)
+
+**On Hiring Managers:** I want to work with teams that:
+- ✅ Value learning and growth
+- ✅ Ship real products (not toys)
+- ✅ Care about code quality (not just velocity)
+- ✅ Invest in junior engineers
+
+---
+
+## 📞 Let's Connect
 
 **Email:** himanshubg70@gmail.com  
-**LinkedIn:** https://www.linkedin.com/in/himanshu-kumar-076a13321  
+**LinkedIn:** https://www.linkedin.com/in/himanshu-kumar-076a13321/  
 **GitHub:** https://github.com/Himan-stack
 
-I'm always open to interesting conversations about ML, trading systems, LLMs, or building cool stuff.
+Got a project idea? Want to collaborate? Have feedback?  
+I'm always open to interesting conversations about ML, system design, or building cool stuff.
 
 ---
 
-*Real projects. Real code. Real deployment. Let's build something that matters.*
+## 📈 GitHub Stats
+
+![Profile Views](https://komarev.com/ghpvc/?username=Himan-stack&color=blueviolet)
+
+---
+
+**Real projects. Real code. Real deployment.**  
+*Not a résumé builder. A learning engineer building in public.*
+
+*Last updated: June 2026*
